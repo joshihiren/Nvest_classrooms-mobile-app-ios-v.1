@@ -1,0 +1,86 @@
+PODS:
+  - Alamofire (4.9.1)
+  - CocoaLumberjack (3.6.1):
+    - CocoaLumberjack/Core (= 3.6.1)
+  - CocoaLumberjack/Core (3.6.1)
+  - CRNotifications (1.2.1)
+  - IHKeyboardAvoiding (4.7)
+  - IQKeyboardManagerSwift (6.5.5)
+  - lottie-ios (3.1.6)
+  - pop (1.0.12)
+  - RxAlamofire (5.1.0):
+    - RxAlamofire/Core (= 5.1.0)
+  - RxAlamofire/Core (5.1.0):
+    - Alamofire (~> 4.8)
+    - RxSwift (~> 5.0)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+  - SDWebImage (5.6.1):
+    - SDWebImage/Core (= 5.6.1)
+  - SDWebImage/Core (5.6.1)
+  - SkyFloatingLabelTextField (3.8.0)
+  - SnapKit (4.2.0)
+  - SVGKit (2.1.1):
+    - CocoaLumberjack (~> 3.0)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - CRNotifications
+  - IHKeyboardAvoiding
+  - IQKeyboardManagerSwift
+  - lottie-ios
+  - pop
+  - RxAlamofire
+  - RxCocoa
+  - RxSwift
+  - SDWebImage
+  - SkyFloatingLabelTextField
+  - SnapKit
+  - SVGKit
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - CocoaLumberjack
+    - CRNotifications
+    - IHKeyboardAvoiding
+    - IQKeyboardManagerSwift
+    - lottie-ios
+    - pop
+    - RxAlamofire
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SDWebImage
+    - SkyFloatingLabelTextField
+    - SnapKit
+    - SVGKit
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  CocoaLumberjack: b17ae15142558d08bbacf69775fa10c4abbebcc9
+  CRNotifications: 2799786cb63e104c75699843d8928afd680182f3
+  IHKeyboardAvoiding: 4cae0880c3975feffa278495df894c5166e71ad0
+  IQKeyboardManagerSwift: 0fb93310284665245591f50f7a5e38de615960b7
+  lottie-ios: 85ce835dd8c53e02509f20729fc7d6a4e6645a0a
+  pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
+  RxAlamofire: a2d7621de4c23a0c6e7b476b504acc32838ee341
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  SDWebImage: 7edb9c3ea661e77a66661f7f044de8c1b55d1120
+  SkyFloatingLabelTextField: 5a338412114808e961fe2d14ea2c5452c8b6e4aa
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SVGKit: 652cdf7bef8bec8564d04a8511d3ab50c7595fac
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: cdcd65de22a6535cad19f365d0fe2e8c69c2e980
+
+COCOAPODS: 1.9.3

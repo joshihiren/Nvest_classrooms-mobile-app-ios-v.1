@@ -1,0 +1,34 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+def common_pods
+  use_frameworks!
+  pod 'IHKeyboardAvoiding'
+  #  pod 'UIGradient'
+  pod 'IQKeyboardManagerSwift'
+  
+  pod 'Alamofire'
+  pod 'RxAlamofire'
+  pod 'RxSwift'
+  pod 'SwiftyJSON'
+  pod 'RxCocoa'
+  pod 'SnapKit'
+  pod 'SDWebImage'
+  
+  pod 'pop'
+  pod 'SVGKit'
+  pod 'CRNotifications'
+  
+  pod 'lottie-ios'
+  
+  pod 'SkyFloatingLabelTextField'
+  
+end
+
+target 'Classrooms' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  common_pods
+  # Pods for ClassRoom
+  
+end

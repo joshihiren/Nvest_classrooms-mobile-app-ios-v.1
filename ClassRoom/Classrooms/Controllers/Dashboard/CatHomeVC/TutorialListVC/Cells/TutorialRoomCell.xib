@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="TutorialRoomCell" id="gTV-IL-0wX" customClass="TutorialRoomCell" customModule="Classrooms" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="145" height="174"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="145" height="174"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5WF-k5-FiJ">
+                        <rect key="frame" x="0.0" y="0.0" width="145" height="174"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="Design_thinking_more" translatesAutoresizingMaskIntoConstraints="NO" id="D55-A2-UE2">
+                                <rect key="frame" x="60" y="0.0" width="85" height="113.5"/>
+                                <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4VC-XW-Qw5">
+                                <rect key="frame" x="18" y="133.5" width="117" height="20.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="D55-A2-UE2" firstAttribute="top" secondItem="5WF-k5-FiJ" secondAttribute="top" id="8Dv-kP-QBy"/>
+                            <constraint firstAttribute="trailing" secondItem="D55-A2-UE2" secondAttribute="trailing" id="Afb-Ya-ZUy"/>
+                            <constraint firstItem="4VC-XW-Qw5" firstAttribute="leading" secondItem="5WF-k5-FiJ" secondAttribute="leading" constant="18" id="CKX-XT-E8D"/>
+                            <constraint firstItem="D55-A2-UE2" firstAttribute="leading" secondItem="5WF-k5-FiJ" secondAttribute="leading" constant="60" id="S7M-FK-qTY"/>
+                            <constraint firstAttribute="trailing" secondItem="4VC-XW-Qw5" secondAttribute="trailing" constant="10" id="eqF-As-Mzz"/>
+                            <constraint firstItem="4VC-XW-Qw5" firstAttribute="top" secondItem="D55-A2-UE2" secondAttribute="bottom" constant="20" id="l8j-Bb-RzX"/>
+                            <constraint firstAttribute="bottom" secondItem="4VC-XW-Qw5" secondAttribute="bottom" constant="20" id="leZ-pn-rWX"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="5WF-k5-FiJ" secondAttribute="bottom" id="2Sr-ed-QUU"/>
+                <constraint firstItem="5WF-k5-FiJ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="2Yg-eZ-zh2"/>
+                <constraint firstAttribute="trailing" secondItem="5WF-k5-FiJ" secondAttribute="trailing" id="H98-eB-dcX"/>
+                <constraint firstItem="5WF-k5-FiJ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="WF0-hF-W55"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="145" height="174"/>
+            <connections>
+                <outlet property="IMG" destination="D55-A2-UE2" id="Idu-aL-8fX"/>
+                <outlet property="Subview" destination="5WF-k5-FiJ" id="mfu-rg-8Oh"/>
+                <outlet property="TitleLBL" destination="4VC-XW-Qw5" id="OCU-Rj-EoQ"/>
+            </connections>
+            <point key="canvasLocation" x="68.840579710144937" y="83.035714285714278"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Design_thinking_more" width="122" height="138"/>
+    </resources>
+</document>
